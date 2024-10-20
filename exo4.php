@@ -1,11 +1,7 @@
 <h1>Exercice 2</h1>
-
-
 <h2>Résultat</h2>
 
 <?php
-
-
 $capitales =[
     "France"=>"Paris",
     // "Clé" => "Valeur"
@@ -16,11 +12,8 @@ $capitales =[
     "Espagne"=>"Madrid"
 ];
 
-
-foreach($capitales as $pays => $capitale){
-  
+foreach($capitales as $pays => $capitale){  
 }
-
 echo afficherTableHTML($capitales);
 
 function afficherTableHTML ($capitales) {

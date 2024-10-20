@@ -1,8 +1,5 @@
 <h1>Exercice 6</h1>
 
-
-
-
 <h2>Résultat</h2>
 
 <?php
@@ -21,13 +18,6 @@ function alimenterListeDeroulante($elements) {
     // Fin de la balise <select>
     echo '</select>';
 }
-
-
 $elements = ["Monsieur", "Madame", "Mademoiselle"];
 alimenterListeDeroulante($elements);
 ?>
-
-
-
-
-<?php
